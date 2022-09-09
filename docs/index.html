@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+	<section class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__title">Automobilele</div>
+				<button class="header__button">TOATE AUTOMOBILILE</button>
+			</div>
+			<div class="header__divider"></div>
+		</div>
+	</section>
+
+	<section class="search">
+		<div class="container">
+			<div class="search__wrapper">
+				<div class="search__title"><span>Cauta</span> automobilul</div>
+				<div class="search__brand">
+					<div class="search__brand-title">Marca:</div>
+					<select name="brand" id="brand">
+						<option value="Audi">Audi</option>
+					</select>
+				</div>
+				<div class="search__model">
+					<div class="search__model-title">Model:</div>
+					<select name="model" id="model">
+						<option value="RS7">RS7</option>
+					</select>
+				</div>
+				<div class="search__year">
+					<div class="search__year-title">Anul:</div>
+					<div class="search__year-wrapper">
+						<select name="year-start" id="year-start">
+							<option value="Din">Din</option>
+						</select>
+						<select name="year-end" id="year-end">
+							<option value="Pana in">Pana in</option>
+						</select>
+					</div>
+				</div>
+				<div class="search__price">
+					<div class="search__price-title">Pret:</div>
+					<div class="search__price-wrapper">
+						<select name="price-start" id="price-start">
+							<option value="De la">De la</option>
+						</select>
+						<select name="price-end" id="price-end">
+							<option value="Pana la">Pana la</option>
+						</select>
+					</div>
+				</div>
+				<div class="search__distance">
+					<div class="search__distance-title">KM:</div>
+					<div class="search__distance-wrapper">
+						<select name="distance-start" id="distance-start">
+							<option value="De la">De la</option>
+						</select>
+						<select name="distance-end" id="distance-end">
+							<option value="Pana la">Pana la</option>
+						</select>
+					</div>
+				</div>
+				<button class="search__button">CAUTA</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="cars">
+		<div class="container">
+			<div class="cars__wrapper">
+				<div class="cars__item">
+					<div class="cars__item-wrapper">
+						<div class="cars__img"><img src="img/1.jpg" alt="mercedes"></div>
+						<div class="cars__descr">
+							<div class="cars__model">Mercedes-Benz CLS</div>
+							<div class="cars__site"><span>Auto</span>Dealer</div>
+							<div class="cars__price">55 500$</div>
+							<div class="cars__specs">
+								<li>
+									<ul>Anul 2012</ul>
+									<ul>5.5 Benzin</ul>
+									<ul>557 HP</ul>
+									<ul>Grand Copue</ul>
+									<ul>75 650 KM</ul>
+								</li>
+							</div>
+							<div class="cars__details">Vezi detalii 
+								<i class="fa-solid fa-angles-right"></i></div>	
+						</div>
+					</div>
+					<div class="cars__divider"></div>
+				</div>
+
+				<div class="cars__item">
+					<div class="cars__item-wrapper">
+						<div class="cars__img"><img src="img/2.jpg" alt="audi"></div>
+						<div class="cars__descr">
+							<div class="cars__model">Audi RS7</div>
+							<div class="cars__site"><span>Auto</span>Dealer</div>
+							<div class="cars__price">134 000$</div>
+							<div class="cars__specs">
+								<li>
+									<ul>Anul 2018</ul>
+									<ul>4.0 Benzin</ul>
+									<ul>725 HP</ul>
+									<ul>Grand Copue</ul>
+									<ul>437 KM</ul>
+								</li>
+							</div>
+							<div class="cars__details">Vezi detalii 
+								<i class="fa-solid fa-angles-right"></i></div>	
+						</div>
+					</div>
+					<div class="cars__divider"></div>
+				</div>
+
+				<div class="cars__item">
+					<div class="cars__item-wrapper">
+						<div class="cars__img"><img src="img/3.jpg" alt="bmw"></div>
+						<div class="cars__descr">
+							<div class="cars__model">BMW M4</div>
+							<div class="cars__site"><span>Auto</span>Dealer</div>
+							<div class="cars__price">72 500$</div>
+							<div class="cars__specs">
+								<li>
+									<ul>Anul 2017</ul>
+									<ul>3.0 Benzin</ul>
+									<ul>450 HP</ul>
+									<ul>Copue</ul>
+									<ul>10 000 KM</ul>
+								</li>
+							</div>
+							<div class="cars__details">Vezi detalii 
+								<i class="fa-solid fa-angles-right"></i></div>	
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+</body>
+</html>
